@@ -1,0 +1,48 @@
+body {
+  text-align: center;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 1000px;
+  padding: 20px;
+  background-color: paleturquoise;
+  margin: 30px 100px;
+  border-radius: 30px;
+  font-size: 20px;
+}
+
+.item {
+  width: 100%;
+  align-items: space-around;
+}
+
+.gender {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+h1 {
+  color: orange;
+}
+
+#submit {
+  height: 100px;
+  width: 300px;
+  background-color: burlywood;
+}
+
+@media screen and (max-width: 800px) {
+  .form-container {
+    font-size: 25px;
+    height: 1300px;
+  }
+  .gender {
+    display: flex;
+    flex-direction: column;
+  }
+}
